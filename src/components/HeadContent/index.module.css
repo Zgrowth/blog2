@@ -1,0 +1,60 @@
+.headContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.headContentLink {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.headContentLink img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.headContentLink span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.headContentExtra {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.headContentExtra a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 14px;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 14px;
+  color: #242424;
+  margin-right: 24px;
+}
+.headContentExtra a span {
+  color: #7F7F7F;
+  font-size: 12px;
+  margin-right: 4px;
+}
+.headContentExtra a:hover {
+  color: var(--ant-color-primary);
+}
+.headContentExtra a:hover span {
+  color: var(--ant-color-primary);
+}
+
+.headContentExtra-a-active {
+  color: var(--ant-color-primary) !important;
+}
+.headContentExtra-a-active span {
+  color: var(--ant-color-primary) !important;
+}

@@ -1,0 +1,20 @@
+.layout-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding:11px 24px;
+  height: 58px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.layout-footer {
+  border-top: 1px solid #eaecef;
+  text-align: center;
+  color: #5b5b5b;
+  background-color: #fff;
+}
